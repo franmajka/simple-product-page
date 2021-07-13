@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.left_block {
+  width: 50%;
+}
+
+.right_block {
+  width: 50%;
+}
+
+.variants {
+  display: flex;
+  justify-content: center;
+}
+
+.variant {
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.variant:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.variant > img {
+  width: 100%;
+}
+
+.variant.active {
+  box-shadow: inset 0 0 5px 2px #ee6161;
+}
+
+.right_block.active {
+  display: flex;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.feature_btn {
+  margin-right: 10px;
+  background-color: #ddd;
+}
+
+.feature_btn:hover {
+  background-color: #ccc;
+}
+
+.feature_btn.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.buy_btn {
+  margin-top: 30px;
+  background-color: rgb(9, 70, 49);
+  color: #fff;
+}
